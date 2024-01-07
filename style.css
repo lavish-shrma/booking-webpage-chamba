@@ -1,0 +1,1154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #B2C8DF;
+  transition: background-color 0.5s ease;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 0.5rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.show li {
+    margin: 0.5rem 0;
+  }
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-image: url(hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #009688;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #00897b;
+}
+
+.about-section {
+  margin: 3rem 0;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.tours-section {
+  margin: 3rem 0;
+}
+
+.tours-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.tour-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.tour-card img {
+  width: 100%;
+  height: auto;
+}
+
+.tour-card h3 {
+  font-size: 1.5rem;
+}
+
+.tour-card p {
+  margin: 1rem;
+}
+
+.tour-card .btn {
+  margin: 1rem;
+}
+
+body {
+  background-color: #E5D1FA;
+  background-position: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+header img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #93BFCF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-color: #B1B2FF;
+  color: white;
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box button {
+  background-color: #967E76;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-07 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(manimahesh-01.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-07:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-07 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-07 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-07 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-07 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-07 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-08 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(pohlani-mata.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-08:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-08 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-08 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-08 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-08 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-08 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-09 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(lamdal2.jfif);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-09:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-09 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-09 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-09 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-09 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-09 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-10 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(gadasru\ mhadev.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-10:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-10 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-10 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-10 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-10 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-10 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-11 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(khundi\ mata.jfif);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-11:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-11 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-11 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-11 button {
+  background-color: #967E76;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-11 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-11 button:hover {
+  background-color: #AF7AB3;
+}
+.box-12 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(kugti.jfif);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-12:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-12 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-12 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-12 button {
+  background-color: #967E76;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-12 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-12 button:hover {
+  background-color: #AF7AB3;
+}
+
+/* camping page stuff */
+
+.box-01 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(dhaulapir.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-01:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-01 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-01 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-01 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-01 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-01 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-02 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(namodic.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-02:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-02 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-02 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-02 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-02 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-02 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-03 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(island.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-03:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-03 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-03 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-03 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-03 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-03 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-04 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-04:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-04 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-04 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-04 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-04 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-04 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-05 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(destinatiion.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-05:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-05 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-05 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-05 button {
+  background-color: #967E76;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-05 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-05 button:hover {
+  background-color: #AF7AB3;
+}
+.box-06 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(Kalatop-Forest-Rest-House.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-06:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-06 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-06 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-06 button {
+  background-color: #967E76;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-06 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+.box-06 button:hover {
+  background-color: #AF7AB3;
+}
+
+/* Booking page */
+
+.box-13 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(collection_vintage_analog_camera_s_old_different_white_background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-13:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-13 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-13 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-13 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-13 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-13 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-14 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(hiking-clothes-for-beginners.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-14:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-14 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-14 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-14 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-14 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-14 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-15 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(tent.avif);
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 254, 254);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-15:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-15 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-15 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-15 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-15 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-15 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-16 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(Best-Used-Gear-Stores-Online-0-Hero.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-16:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-16 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-16 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-16 button {
+  background-color: #967E76;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-16 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-16 button:hover {
+  background-color: #AF7AB3;
+}
+
+.box-17 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(bikes.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-17:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-17 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-17 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-17 button {
+  background-color: #967E76;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-17 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-17 button:hover {
+  background-color: #AF7AB3;
+}
+.box-18 {
+  border: 1px;
+  padding: 10px;
+  width: 30%;
+  background-image: url(3-Season-Sleeping-Bags2022.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.box-18:hover {
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.box-18 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-18 p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box-18 button {
+  background-color: #967E76;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 42px;
+}
+
+.box-18 {
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+}
+
+.box-18 button:hover {
+  background-color: #AF7AB3;
+}

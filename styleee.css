@@ -1,0 +1,327 @@
+/*booking*/
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col {
+    background-image: url();
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.row2 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col {
+    background-image: url();
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+main {
+    position: relative;
+    top: 130px;
+    margin: 130px;
+}
+
+.course-col1 {
+    background-image: url(hiking-clothes-for-beginners.jpg);
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 100px;
+    height: 206px;
+    background-size: cover;
+}
+
+.course-col1:hover {
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.course-col2 {
+    background-image: url(collection-vintage-analog-camera-s-old-different-white-background-80145424.jpg);
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 100px;
+    height: 206px;
+    background-size: cover;
+}
+
+.course-col2:hover {
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.course-col3 {
+    background-image: url(tent.avif);
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 100px;
+    height: 206px;
+    background-size: cover;
+}
+
+.course-col3:hover {
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+
+.course-col4 {
+    background-image: url(2021-royal-enfield-himalayan-adventure-bike-1.jpg);
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 100px;
+    height: 206px;
+    background-size: cover;
+}
+
+.course-col4:hover {
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.course-col5 {
+    background-image: url(3-Season-Sleeping-Bags2022.jpg);
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 100px;
+    height: 206px;
+    background-size: cover;
+}
+
+.course-col5:hover {
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.course-col6 {
+    background-image: url(Best-Used-Gear-Stores-Online-0-Hero.jpg);
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 100px;
+    height: 206px;
+    background-size: cover;
+}
+
+.course-col6:hover {
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+button {
+    font-family: 'Comfortaa', 'cursive';
+    background-color: #400E32;
+    color: white;
+    position: relative;
+    padding: 5px;
+    border-radius: 12px;
+    top: 220px;
+    left: 48px;
+}
+
+button:hover {
+    background-color: #913175;
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 0.5rem;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #009688;
+}
+
+header img {
+    height: 50px;
+    margin-right: 1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #93BFCF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+button {
+    border: none;
+}
+
+h2.cookies {
+    font-family: 'Rock Salt', 'cursive';
+    color: #ff0000;
+    background-color: #E8D5C4;
+}
+
+p.cookies {
+    font-family: 'Caveat', 'cursive';
+    color: #8D7B68;
+}
+
+body.cookies {
+    background-color: #DFF6FF;
+}
+
+main {
+    position: relative;
+    top: 10px;
+    margin: 55px;
+}
+
+footer {
+    background-color: #fff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer-nav ul {
+    display: flex;
+}
+
+.footer-nav li {
+    margin: 0 0.5rem;
+}
+
+.footer-links01 {
+    padding-left: 20px;
+}
+
+.footer-nav a {
+    color: #fff;
+}
+
+.footeroptions {
+    background-color: #E9D5DA;
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    margin-top: -250px;
+  
+  }
+  
+  .footeroptions:hover {
+    color: #E8D5C4;
+    background-color: #5DA7DB;
+  }
+  
+  .footeroptions a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+  }
+  
+  .footeroptions a:hover {
+    color: aliceblue;
+  }
+  
+  .footeroptions a {
+    font-family: 'Comfortaa', 'cursive';
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    margin: 10px 20px;
+  }
+  
+  footer {
+    font-family: 'Kirang Haerang';
+    font-size: 17px;
+    margin-top: 220px;
+    position: relative;
+    margin-bottom: 0px;
+  }

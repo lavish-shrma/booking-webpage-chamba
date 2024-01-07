@@ -1,0 +1,348 @@
+body {
+  background: linear-gradient(317deg, #B2A4FF 0%, #B0DAFF  74%);
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #93BFCF;
+  margin-left: 500px;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  margin-top: -70px;
+}
+
+.navbar:hover {
+  color: #93BFCF;
+  background-color: #5DA7DB;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.navbar a:hover {
+  color: aliceblue;
+}
+
+.logo {
+  width: 10px;
+  height: 10px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+}
+
+h2.nav {
+  font-family: 'Kirang Haerang';
+  font-size: 20px;
+  margin-left: 110px;
+  margin-top: 0px;
+  position: relative;
+  top: 10px;
+}
+
+h2.about {
+  font-family: 'Comfortaa', 'cursive';
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 0px;
+}
+
+p1 {
+  font-family: 'Kirang Haerang';
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  left: 110px;
+}
+
+p {
+  font-family: 'Comfortaa', 'cursive';
+  font-size: 15px;
+  position: relative;
+  top: 0px;
+}
+
+.navbar a {
+  font-family: 'Kirang Haerang';
+  font-size: 20px;
+  margin-left: 100px;
+  margin: 20px 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: -325px;
+  left: 30px;
+}
+
+aside img {
+  position: relative;
+  top: -140px;
+}
+
+.box {
+  font-family: 'Comfortaa', 'cursive';
+  background-color: #93BFCF;
+  height: 120px;
+  width: 500px;
+  border-radius: 12px;
+  position: relative;
+  left: -290px;
+  top: 165px;
+}
+
+section.here {
+  margin: 10px;
+}
+
+aside {
+  margin: -20px;
+  position: relative;
+  top: 110px;
+}
+
+h2.box {
+  font-weight: bold;
+  position: relative;
+  left: 200px;
+}
+
+.box button {
+  font-family: 'Comfortaa', 'cursive';
+  padding: 5px;
+  border-radius: 12px;
+  background-color: #400E32;
+  color: white;
+  position: relative;
+  left: 100px;
+  margin: 10px 10px;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+.box button:hover {
+  background-color: #913175;
+}
+
+main {
+  max-width: 1200px;
+  margin: -110px auto;
+}
+
+.about-section {
+  margin: 3rem 0;
+  position: relative;
+  top: 110px;
+}
+
+.about-section h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section {
+  color: #4D455D;
+  font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+  font-weight: bold;
+}
+
+.footeroptions {
+  background-color: #E9D5DA;
+  border-radius: 30px;
+  padding: 15px;
+  display: flex;
+  margin-top: -250px;
+
+}
+
+.footeroptions:hover {
+  color: #E8D5C4;
+  background-color: #5DA7DB;
+}
+
+.footeroptions a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.footeroptions a:hover {
+  color: aliceblue;
+}
+
+.footeroptions a {
+  font-family: 'Comfortaa', 'cursive';
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 10px;
+  margin: 10px 20px;
+}
+
+footer {
+  font-family: 'Kirang Haerang';
+  font-size: 30px;
+  margin-top: 180px;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+aside img {
+  height: 300px;
+  width: 200px;
+  position: relative;
+  left: 350px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hiking page */
+
+/* main.hiking{
+  width: 1200px;
+} */
+
+img.hiking {
+  width: 70px;
+  height: 70px;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+}
+
+.navigation-hiking {
+  display: grid;
+  padding: 19px;
+  position: relative;
+  left: 54rem;
+  top: -5rem;
+  background-color: cadetblue;
+  color: #c38222;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 21rem;
+  flex-direction: row;
+}
+
+a.hiking:hover {
+  /* background-color: #4D455D; */
+  color: #ffffff;
+  text-decoration: underline;
+  width: auto;
+  transition: 0.2s;
+}
+
+img.hiking-dora {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 50rem;
+  top: 0rem;
+}
+
+ul.hiking {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li.hiking {
+  display: inline-block;
+}
+
+li.hiking a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.hiking a {
+  margin: 0px;
+}
+
+aside.hiking img {
+  margin: -20px;
+  position: relative;
+  top: -5em;
+  right: -2em;
+}
+
+aside.hiking {
+  margin: 0px;
+  position: relative;
+  top: 0em;
+}
+
+section.hiking {
+  position: relative;
+}
+
+h3.hiking {
+  position: relative;
+  top: 7em;
+}
+
+p.hiking {
+  position: relative;
+  top: 10em;
+}
+
+img.dora-taking {
+  position: relative;
+  right: 25em;
+  width: 250px;
+  height: 250px;
+}
+
+p.dora-going-p {
+  position: relative;
+  right: 30em;
+  top: 5em;
+}
+
+img.dora-going {
+  position: relative;
+  top: -30em;
+  left: 18em;
+  width: 250px;
+  border-radius: 40px;
+}
+
+section.hiking03 {
+  position: relative;
+  top: 10em;
+}
+
+article.hiking01 {
+  position: relative;
+  top: -15em;
+  left: 30em;
+  margin-right: 30em;
+}
+
+aside.hiking03 {
+  margin: -20px;
+  position: relative;
+  top: 110px;
+}
+
+article.hiking {
+  position: relative;
+  top: -15em;
+  left: 30em;
+  margin-right: 30em;
+}
