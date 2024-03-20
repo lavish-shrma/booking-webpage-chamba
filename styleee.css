@@ -49,7 +49,7 @@ main {
 }
 
 .course-col1 {
-    background-image: url(hiking-clothes-for-beginners.jpg);
+    background-image: url(images/hiking-clothes-for-beginners.jpg);
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -66,7 +66,7 @@ main {
 }
 
 .course-col2 {
-    background-image: url(collection-vintage-analog-camera-s-old-different-white-background-80145424.jpg);
+    background-image: url(images/collection_vintage_analog_camera_s_old_different_white_background.jpg);
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -83,7 +83,7 @@ main {
 }
 
 .course-col3 {
-    background-image: url(tent.avif);
+    background-image: url(images/tent.avif);
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -101,7 +101,7 @@ main {
 
 
 .course-col4 {
-    background-image: url(2021-royal-enfield-himalayan-adventure-bike-1.jpg);
+    background-image: url(images/bikes.jpg);
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -118,7 +118,7 @@ main {
 }
 
 .course-col5 {
-    background-image: url(3-Season-Sleeping-Bags2022.jpg);
+    background-image: url(images/3-Season-Sleeping-Bags2022.jpg);
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -135,7 +135,7 @@ main {
 }
 
 .course-col6 {
-    background-image: url(Best-Used-Gear-Stores-Online-0-Hero.jpg);
+    background-image: url(images/Best-Used-Gear-Stores-Online-0-Hero.jpg);
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
